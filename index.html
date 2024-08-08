@@ -1,0 +1,82 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entregable JavaScript 1</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="JavaScript" href="app.js">
+</head>
+<body>
+    <header>
+        <h1>Entrega JavaScript</h1>
+    </header>
+
+    <section class="content">
+        <h2>Condicionales, Ciclos y Funciones </h2>
+
+        <div class="item">
+            <h3>Indique en consola si el número es par o impar.</h3>
+            <input type="number" id="numeroParidad" placeholder="Ingresa un número">
+            <button onclick="verificarParidad()">Verificar</button>
+            <p id="resultadoParidad"></p>
+        </div>
+
+        <div class="item">
+            <h3>Indique en consola que número es mayor, y si ninguno lo es, indicar por consola que son iguales</h3>
+            <input type="number" id="num1Comparar" placeholder="Primer número">
+            <input type="number" id="num2Comparar" placeholder="Segundo número">
+            <button onclick="compararNumeros()">Comparar</button>
+            <p id="resultadoComparar"></p>
+        </div>
+
+        <div class="item">
+            <h3>Indique en consola si ese número es múltiplo de 5.</h3>
+            <input type="number" id="numeroMultiplo5" placeholder="Ingresa un número">
+            <button onclick="esMultiploDeCinco()">Verificar</button>
+            <p id="resultadoMultiplo5"></p>
+        </div>
+
+        
+        <div class="item">
+            <h3>Imprima por consola todos los números desde el 0 hasta llegar a ese número.</h3>
+            <input type="number" id="numeroHasta" placeholder="Ingresa un número">
+            <button onclick="imprimirNumerosHasta()">Imprimir</button>
+            <p id="resultadoImprimirHasta"></p>
+        </div>
+
+        <div class="item">
+            <h3>Imprima por consola  esa palabra la cantidad correspondiente al número indicado.</h3>
+            <input type="text" id="palabraRepetir" placeholder="Ingresa una palabra">
+            <input type="number" id="vecesRepetir" placeholder="Cantidad de veces">
+            <button onclick="imprimirPalabraVeces()">Imprimir</button>
+            <p id="resultadoRepetirPalabra"></p>
+        </div>
+
+        <div class="item">
+            <h3>Imprima por consola todos los valores de ese array.</h3>
+            <input type="text" id="arrayValores" placeholder="Ingresa valores separados por comas">
+            <button onclick="imprimirArray()">Imprimir</button>
+            <p id="resultadoArray"></p>
+        </div>
+
+        <div class="item">
+            <h3> Imprima por consola todos los valores de ese array, menos el que se encuentre en la 5ta posición del mismo.</h3>
+            <input type="text" id="arrayValoresExcepto" placeholder="Ingresa 10 valores separados por comas">
+            <button onclick="imprimirArrayExceptoQuinto()">Imprimir</button>
+            <p id="resultadoArrayExcepto"></p>
+        </div>
+
+        <div class="item">
+            <h3> Imprima por consola cada número del array multiplicado por el número pasado por parámetro.</h3>
+            <input type="text" id="arrayMultiplicar" placeholder="Ingresa valores separados por comas">
+            <input type="number" id="multiplicador" placeholder="Ingresa un número">
+            <button onclick="multiplicarArrayPorNumero()">Multiplicar</button>
+            <p id="resultadoMultiplicar"></p>
+        </div>
+    </section>
+
+ 
+    <script src="app.js"></script>
+</body>
+</html>
+
